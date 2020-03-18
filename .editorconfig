@@ -7,5 +7,10 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.cs]
-csharp_preserve_single_line_statements = false
 csharp_preserve_single_line_blocks = false
+csharp_preserve_single_line_statements = false
+
+dotnet_style_qualification_for_event = true:suggestion
+dotnet_style_qualification_for_field = true:suggestion
+dotnet_style_qualification_for_method = true:suggestion
+dotnet_style_qualification_for_property = true:suggestion
